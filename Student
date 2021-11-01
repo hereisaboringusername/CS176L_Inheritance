@@ -1,10 +1,5 @@
-/**
- * Subclass of Person 
- * Sets student year
- */
-package labproject7.persons;
-
-public class Student extends Person {
+package labproject6.persons; 
+public class Student  extends Person {
 
 	//Instance variable
 	private int year;
@@ -41,7 +36,4 @@ public class Student extends Person {
 				"Year: " + year;
 	}
 }
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
+}
