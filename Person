@@ -1,3 +1,4 @@
+
 /**
  * Superclass 
  * Sets the name of each person
@@ -5,19 +6,19 @@
  *
  */
 package labproject6.persons;
-
 public class Person {
-
 	//instance variables
 	private String name;
-	
-	//methods
+
+	//Methods: 
+	//This method sets the name. 
 	public void setName(String name) {
 		this.name = name;
 	}
-	
+
 	public String toString() {
 		return getClass() + "\n" + 
 				"Name: " + name;
 	}
 }
+
