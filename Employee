@@ -1,7 +1,7 @@
-
+package labproject6.persons;
 public class Employee extends Person {
 
-	//insert your innstance variables
+	//Insert your instance variables
 	private String officeNumber;
 	private double salary;
 	
@@ -10,10 +10,11 @@ public class Employee extends Person {
 //An Employee has an office number (String), and salary (double).
 //Write the setOfficeNumber and setSalary methods for office number and salary.
 
+	//This method sets the office number
 	public void setOfficeNumber (String number) {
 		officeNumber = number;
 	}
-	
+//This method sets the salary.	
 	public void setSalary (double money) {
 		salary = money;
 	}
@@ -24,4 +25,6 @@ public class Employee extends Person {
 				"Office Number: " + officeNumber + "\n" +
 				"Salary: " + salary;
 	}
+ 
+
 }
