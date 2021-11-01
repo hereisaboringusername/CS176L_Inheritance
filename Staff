@@ -2,7 +2,7 @@
  * Subclass of Employee 
  * Sets staff title
  */
-package labproject7.persons;
+package labproject6.persons;
 
 public class Staff extends Employee {
 
@@ -21,4 +21,6 @@ public class Staff extends Employee {
 		return super.toString() + "\n" +
 				"Title: " + title;
 	}
+}
+
 }
