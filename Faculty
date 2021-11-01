@@ -1,18 +1,20 @@
 
 
-public class Faculty extends Employee {
+package labproject6.persons;
 
-	//Instance variable
+public class Faculty extends Employee{
+	//Insert  your instance variable. Faculty has instance variable of rank.
 	private String rank;
-	
-	//sets the rank of the faculty
+
+	//This sets the rank of the faculty member
 	public void setRank (String rank) {
 		this.rank = rank;
 	}
-	
+
 	@Override
 	public String toString() {
 		return super.toString() + "\n" +
 				"Rank: " + rank;
 	}
+
 }
