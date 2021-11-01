@@ -1,0 +1,27 @@
+
+public class Employee extends Person {
+
+	//insert your innstance variables
+	private String officeNumber;
+	private double salary;
+	
+
+//Methods:
+//An Employee has an office number (String), and salary (double).
+//Write the setOfficeNumber and setSalary methods for office number and salary.
+
+	public void setOfficeNumber (String number) {
+		officeNumber = number;
+	}
+	
+	public void setSalary (double money) {
+		salary = money;
+	}
+	
+	@Override
+	public String toString() {
+		return super.toString() + "\n" +
+				"Office Number: " + officeNumber + "\n" +
+				"Salary: " + salary;
+	}
+}
